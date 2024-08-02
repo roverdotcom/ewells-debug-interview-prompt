@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Cosmo",
+    "groupIds": [2, 3]
+  },
+  {
+    "id": 2,
+    "name": "Joli",
+    "groupIds": [1]
+  },
+  {
+    "id": 3,
+    "name": "Reggie",
+    "groupIds": [1, 2]
+  }
+]

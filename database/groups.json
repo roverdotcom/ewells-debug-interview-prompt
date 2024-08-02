@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Dogs Unlimited",
+    "motto": "Literally just infinite dogs",
+    "numberOfAnimals": -4
+  },
+  {
+    "id": 2,
+    "name": "Fish Aficionados",
+    "motto": "glub glub",
+    "groupKey": "splishsplash",
+    "numberOfAnimals": 47
+  },
+  {
+    "id": 3,
+    "name": "Group #3",
+    "motto": "Look I've only got so much creativity okay ¯\\_(ツ)_/¯",
+    "groupKey": "Group_3",
+    "numberOfAnimals": 333
+  }
+]
