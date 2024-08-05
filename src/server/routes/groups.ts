@@ -5,8 +5,8 @@ import Group from '../../types/models/Groups';
 import User from '../../types/models/Users';
 
 const groupRouter = Router();
-const GROUPS_TABLE_PATH = path.join(__dirname, '../../database/groups.json');
-const USERS_TABLE_PATH = path.join(__dirname, '../../database/users.json');
+const GROUPS_TABLE_PATH = path.join(__dirname, '../../../database/groups.json');
+const USERS_TABLE_PATH = path.join(__dirname, '../../../database/users.json');
 
 groupRouter.get('/', async (req, res) => {
   const allGroups: Group[] = JSON.parse(await readFile(GROUPS_TABLE_PATH, 'utf-8'));

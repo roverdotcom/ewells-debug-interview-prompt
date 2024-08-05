@@ -5,13 +5,13 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
 
 const config: Configuration & DevServerConfig = {
-  entry: './client/app.tsx',
+  entry: './src/client/app.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
     publicPath: '/'
   },
-  devtool: 'eval-source-map',
+  devtool: 'inline-source-map',
   mode: process.env.NODE_ENV as 'development' | 'production' | undefined,
   devServer: {
     host: 'localhost',
@@ -44,7 +44,7 @@ const config: Configuration & DevServerConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './client/static/index.html'
+      template: './src/client/static/index.html'
     })
   ],
   resolve: {
